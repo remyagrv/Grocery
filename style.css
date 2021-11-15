@@ -12,8 +12,8 @@ body{
   text-align: center;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
-a .button{
-    text-decoration:#3e8e41;
+.b a{
+    text-decoration:none;
 }
 .button {
     padding: 15px 25px;
