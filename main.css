@@ -3,13 +3,27 @@ body{
     background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
+body h1{
+  align-items: center;
+  color: darkred;
+  font-family: Georgia, sans-serif;
+font-size: 4em;
+letter-spacing: -2px;
+text-align: center;
+text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
 th {
   /* background-color: #04AA6D; */
   color: white;
   font-size: large;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 td{
   color: lightgreen;
   font-weight: bolder;
-
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+table{
+    margin-top: 5%;
+   
 }
