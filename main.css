@@ -6,6 +6,7 @@ body{
 th {
   /* background-color: #04AA6D; */
   color: white;
+  font-size: large;
 }
 td{
   color: lightgreen;
