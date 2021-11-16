@@ -1,0 +1,101 @@
+{
+    "product":[
+        {
+            "serialno":"1",
+            "name":"Apple",
+            "quantity":"4",
+            "unit":"1kg",
+            "department":"Fruits",
+            "notes":"Kashmiri Apple"
+        },
+        {
+            "serialno":"1",
+            "name":"Apple",
+            "quantity":"4",
+            "unit":"1kg",
+            "department":"Fruits",
+            "notes":"Kashmiri Apple"
+        },
+        {
+            "serialno":"1",
+            "name":"Apple",
+            "quantity":"4",
+            "unit":"1kg",
+            "department":"Fruits",
+            "notes":"Kashmiri Apple"
+        },
+        {
+            "serialno":"1",
+            "name":"Apple",
+            "quantity":"4",
+            "unit":"1kg",
+            "department":"Fruits",
+            "notes":"Kashmiri Apple"
+        },
+        {
+            "serialno":"1",
+            "name":"Apple",
+            "quantity":"4",
+            "unit":"1kg",
+            "department":"Fruits",
+            "notes":"Kashmiri Apple"
+        },
+        {
+            "serialno":"1",
+            "name":"Apple",
+            "quantity":"4",
+            "unit":"1kg",
+            "department":"Fruits",
+            "notes":"Kashmiri Apple"
+        },
+        {
+            "serialno":"1",
+            "name":"Apple",
+            "quantity":"4",
+            "unit":"1kg",
+            "department":"Fruits",
+            "notes":"Kashmiri Apple"
+        },
+        {
+            "serialno":"1",
+            "name":"Apple",
+            "quantity":"4",
+            "unit":"1kg",
+            "department":"Fruits",
+            "notes":"Kashmiri Apple"
+        },
+        {
+            "serialno":"1",
+            "name":"Apple",
+            "quantity":"4",
+            "unit":"1kg",
+            "department":"Fruits",
+            "notes":"Kashmiri Apple"
+        },
+        {
+            "serialno":"1",
+            "name":"Apple",
+            "quantity":"4",
+            "unit":"1kg",
+            "department":"Fruits",
+            "notes":"Kashmiri Apple"
+        },
+        {
+            "serialno":"1",
+            "name":"Apple",
+            "quantity":"4",
+            "unit":"1kg",
+            "department":"Fruits",
+            "notes":"Kashmiri Apple"
+        },
+        {
+            "serialno":"1",
+            "name":"Apple",
+            "quantity":"4",
+            "unit":"1kg",
+            "department":"Fruits",
+            "notes":"Kashmiri Apple"
+        }
+        
+    ]
+}
