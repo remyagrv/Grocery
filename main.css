@@ -3,3 +3,12 @@ body{
     background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
+th {
+  /* background-color: #04AA6D; */
+  color: white;
+}
+td{
+  color: lightgreen;
+  font-weight: bolder;
+
+}
