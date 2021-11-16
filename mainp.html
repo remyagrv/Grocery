@@ -15,7 +15,7 @@
 <body>
     <h1>Grocery List</h1>
     <div class="container">
-        <table class="table table-hover img" style="background-color:rgba(12, 11, 11, 0.5);">
+        <table id="product" class="table table-hover img" style="background-color:rgba(12, 11, 11, 0.5);">
           
             <thead>
               <tr>
@@ -186,5 +186,35 @@
           
           </table>
     </div>
+    <script>
+      const productbody = document.querySelector("#product > tbody");
+      function loadproduct(){
+        const request = new XMLHttpRequest();
+        request.open("get","./product.json");
+        request.onload = () => {
+          try{
+                  const json = JSON.parse(request.responseText);
+                  populateproduct(json);
+
+            }catch(e){
+              console.warn("could not load product details!")
+            }
+        }; request.send();
+      }
+// clears existing table
+      function populateproduct(json){
+        while(productbody.firstChild){
+          productbody.removeChild(productbody.firstChild);
+        }
+        // populate table
+        json.array.forEach(HTMLTableRowElement => {
+          const tr = document.createElement("td");
+          td.textContent = cell;
+          tr.appendChild(td);
+        });
+        productbody.appendChild(tr);
+      }
+      document.addEventListener("DOMContentLoaded", () => {loadproduct();});
+    </script>
 </body>
 </html>
