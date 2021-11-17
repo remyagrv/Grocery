@@ -1,6 +1,7 @@
 function server(){
     document.getElementById("button").disabled = true;
     var xhttp = new XMLHttpRequest();
+    var x = document.createElement("INPUT");
     xhttp.onreadystatechange = function(){
         if(this.readyState==4&&this.status==200){
             // document.getElementById("demo").innerHTML = this.responseText;
@@ -18,8 +19,13 @@ function server(){
                                             <td>${data[i].Unit}</td>
                                             <td>${data[i].Department}</td>
                                             <td>${data[i].notes}</td>
+                                            <td>${data[i].status}</td>
+                                            
+                                          
                                     </tr>`
+                                   
                                     table.innerHTML += row;
+                                    
                     }
                 }
                

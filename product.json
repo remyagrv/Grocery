@@ -1,43 +1,111 @@
 { "product":
   [  {
         "Serialno": "1",
-        "Name": "apple",
-        "Quantity": "1",
+        "Name": "Banana",
+        "Quantity": "10",
         "Unit": "kg",
-        "Department":"fruits",
-        "notes":"freash"
+        "Department":"Fruits",
+        "notes":"Robusta banana",
+        "Status":""
     },
     {
-        "Serialno": "1",
-        "Name": "aplle",
-        "Quantity": "1",
-        "Unit": "kg",
-        "Department":"fruits",
-        "notes":"freash"
+        "Serialno": "2",
+        "Name": "Milk",
+        "Quantity": "2",
+        "Unit": "L",
+        "Department":"Dairy",
+        "notes":"Milma",
+        "Status":""
     },
     {
-        "Serialno": "1",
-        "Name": "aplle",
-        "Quantity": "1",
+        "Serialno": "3",
+        "Name": "Carrot",
+        "Quantity": "8",
         "Unit": "kg",
-        "Department":"fruits",
-        "notes":"fresh"
+        "Department":"Vegetables",
+        "notes":"Fresh",
+        "Status":""
+    },
+    {
+        "Serialno": "4",
+        "Name": "Rice",
+        "Quantity": "10",
+        "Unit": "kg",
+        "Department":"Grains",
+        "notes":"Good Quality",
+        "Status":""
     },
     {
         "Serialno": "5",
-        "Name": "aplle",
-        "Quantity": "1",
+        "Name": "Potatos",
+        "Quantity": "5",
         "Unit": "kg",
-        "Department":"fruits",
-        "notes":"fresh"
+        "Department":"Vegetables",
+        "notes":"Fresh",
+        "Status":""
     },
     {
         "Serialno": "6",
-        "Name": "aplle",
+        "Name": "Watermelon",
+        "Quantity": "6",
+        "Unit": "kg",
+        "Department":"Fruits",
+        "notes":"Fresh",
+        "Status":""
+    },
+    {
+        "Serialno": "7",
+        "Name": "Apple",
+        "Quantity": "7",
+        "Unit": "kg",
+        "Department":"Fruits",
+        "notes":"Kashmiri Fresh",
+        "Status":""
+    },
+    {
+        "Serialno": "8",
+        "Name": "Termeric Powder",
         "Quantity": "1",
         "Unit": "kg",
-        "Department":"fruits",
-        "notes":"fresh"
+        "Department":"Spices",
+        "notes":"Good Quality",
+        "Status":""
+    },
+    {
+        "Serialno": "9",
+        "Name": "Yogurt",
+        "Quantity": "1",
+        "Unit": "L",
+        "Department":"Dairy",
+        "notes":"Fresh",
+        "Status":""
+    },
+    {
+        "Serialno": "10",
+        "Name": "Cucumber",
+        "Quantity": "4",
+        "Unit": "kg",
+        "Department":"Vegetables",
+        "notes":"Fresh",
+        "Status":""
+    },
+    {
+        "Serialno": "11",
+        "Name": "Salt",
+        "Quantity": "1",
+        "Unit": "kg",
+        "Department":"Contiments",
+        "notes":"Good Quality",
+        "Status":""
+    },
+    {
+        "Serialno": "12",
+        "Name": "Coconut oil",
+        "Quantity": "5",
+        "Unit": "L",
+        "Department":"Oil",
+        "notes":"Good Quality",
+        "Status":""
     }
 ]
 }
