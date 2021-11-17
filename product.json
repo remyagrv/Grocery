@@ -1,10 +1,45 @@
 [
-    [1,"apple",4,4,"fruits","kashmiri"],
-    [1,"apple",4,4,"fruits","kashmiri"],
-    [1,"apple",4,4,"fruits","kashmiri"],
-    [1,"apple",4,4,"fruits","kashmiri"],
-    [1,"apple",4,4,"fruits","kashmiri"],
-    [1,"apple",4,4,"fruits","kashmiri"]
+    {
+        "Serialno": "1",
+        "Name": "aplle",
+        "Quantity": "1",
+        "Unit": "kg",
+        "Department":"fruits",
+        "notes":"freash"
+    },
+    {
+        "Serialno": "1",
+        "Name": "aplle",
+        "Quantity": "1",
+        "Unit": "kg",
+        "Department":"fruits",
+        "notes":"freash"
+    },
+    {
+        "Serialno": "1",
+        "Name": "aplle",
+        "Quantity": "1",
+        "Unit": "kg",
+        "Department":"fruits",
+        "notes":"fresh"
+    },
+    {
+        "Serialno": "5",
+        "Name": "aplle",
+        "Quantity": "1",
+        "Unit": "kg",
+        "Department":"fruits",
+        "notes":"fresh"
+    },
+    {
+        "Serialno": "6",
+        "Name": "aplle",
+        "Quantity": "1",
+        "Unit": "kg",
+        "Department":"fruits",
+        "notes":"fresh"
+    }
+]
 
-          
-    ]
+
+

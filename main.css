@@ -27,3 +27,29 @@ table{
     margin-top: 5%;
    
 }
+tr {
+  /* github.com/w3c/csswg-drafts/issues/1899 */
+  transform: scale(1);
+  position: relative;
+}
+:invalid .if-valid{
+  display: none;
+}
+/* Moz hack to enable :before on radio
+input[type=radio]{appearance: none;}
+input[type=radio]::before{content: '⚪';}
+input[type=radio]:checked::before{content: '🔘';padding: 3px 5px;}
+*/
+:checked::before {
+  /* add a background (webkit only)*/
+  content: ' ';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: lightpink;
+  opacity: .5;
+  z-index: -1;
+}  
