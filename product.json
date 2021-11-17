@@ -1,7 +1,7 @@
-[
-    {
+{ "product":
+  [  {
         "Serialno": "1",
-        "Name": "aplle",
+        "Name": "apple",
         "Quantity": "1",
         "Unit": "kg",
         "Department":"fruits",
@@ -40,6 +40,7 @@
         "notes":"fresh"
     }
 ]
+}
 
 
 

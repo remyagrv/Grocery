@@ -13,8 +13,10 @@
     <title>Grocery</title>
 </head>
 <body>
+  
     <h1>Grocery List</h1>
     <div class="container">
+      <button id="button" onclick="server();">Load Grocery List</button>
         <table id="product" class="table table-hover img" style="background-color:rgba(12, 11, 11, 0.6);">
           
             <thead>
@@ -28,8 +30,8 @@
                 <th scope="col">Status</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
+            <tbody id="myTable">
+              <!-- <tr>
                 <th scope="row">1</th>
                 <td>Mark</td>
                 <td>Otto</td>
@@ -181,12 +183,16 @@
                         <label class="custom-control-label" for="customCheck1"></label>
                     </div>
                   </td>
-              </tr>
+              </tr> -->
             </tbody>
           
           </table>
     </div>
-    <script>
+    
+     
+  
+  <script src="./product.js"></script>
+<!--   
       
 //       const productbody = document.querySelector("#product > tbody");
 //       function loadproduct(){
@@ -216,6 +222,6 @@
 //         productbody.appendChild(tr);
 //       }
 //       document.addEventListener("DOMContentLoaded", () => {loadproduct();});
-    </script>
+    -->
 </body>
 </html>
