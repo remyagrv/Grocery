@@ -19,7 +19,7 @@ function server(){
                                             <td>${data[i].Unit}</td>
                                             <td>${data[i].Department}</td>
                                             <td>${data[i].notes}</td>
-                                            <td>${data[i].status}</td>
+                                            <td>${data[i].innerHTML = '<input type="checkbox" id="accept" name="accept">'}</td>
                                             
                                           
                                     </tr>`
